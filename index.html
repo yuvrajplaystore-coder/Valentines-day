@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day, Riya!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6e6;
+            color: #d63384;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #ff1493;
+        }
+        #proposal {
+            display: none;
+            font-size: 2em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Valentine's Day, Riya!</h1>
+    <p>From the moment I met you, my world has been filled with love and joy. You're my everything, and I can't imagine life without you.</p>
+    <p>Will you be my Valentine forever?</p>
+    <button onclick="showProposal()">Click to Reveal My Heart</button>
+    <div id="proposal">
+        <p>Janeman, can i book my you as my partner forever?</p>
+        <p>(I love you so much meri jaan <3)</p>
+    </div>
+
+    <script>
+        function showProposal() {
+            document.getElementById('proposal').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
